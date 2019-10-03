@@ -1,0 +1,5 @@
+3.2
+
+Actually a narrowing error. Since (int*double) + int will yield a double, we can’t assign it to an int without risking losing information.
+
+I feel very good 
